@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+  .article__wrapper {
+    flex-direction: column;
+  }
+  .article__wrapper article {
+    width: 100%;
+  }
+}
