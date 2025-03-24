@@ -79,4 +79,7 @@
   .nav-2 ul{
     flex-direction: column;
   }
+  .nav-1 ul {
+    display: none !important;
+  }
 }
