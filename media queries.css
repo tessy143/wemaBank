@@ -5,4 +5,78 @@
   .article__wrapper article {
     width: 100%;
   }
+  .Banking-1 {
+    flex-direction: column;
+  }
+  .product-1 {
+    flex-direction: column;
+  }
+  .product-1 div {
+    width: 100%;
+    align-items: center;
+  }
+  .SME-partner {
+    flex-direction: column;
+  }
+  .loans {
+    flex-direction: column;
+  }
+  .loans div {
+    width: 100%;
+    align-items: center;
+  }
+  .swipe {
+    flex-direction: column;
+  }
+  .payment {
+    flex-direction: column;
+  }
+  .number {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .price {
+    flex-direction: column;
+  }
+  .price div {
+    width: 100%;
+  }
+  .business-1 {
+    flex-direction: column;
+  }
+  .business-3 {
+    flex-direction: column;
+  }
+  .business-3 div {
+    width: 100%;
+  }
+  .customer {
+    flex-direction: column;
+  }
+  .customer div {
+    width: 100%;
+  }
+  .Ariticle {
+    flex-direction: column;
+  }
+  .Ariticle div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    row-gap: 3em;
+  }
+  .alat {
+    flex-direction: column;
+  }
+  .alat img {
+    width: 30%;
+  }
+  .nav-2 ul{
+    flex-direction: column;
+  }
 }
