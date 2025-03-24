@@ -86,14 +86,16 @@
   background-color: rgba(255, 255, 255, 0.969);
   display: flex;
   justify-content: center;
-  column-gap: 2em;
-  padding: 2.65rem 0;
+  column-gap: 0.5em;
+  flex-wrap: wrap !important;
+  padding: 2rem 0;
 }
 .Banking-1 section {
   display: flex;
+  flex-wrap: wrap !important;
   flex-flow: column;
   align-items: center;
-  flex-basis: 10%;
+  flex-basis: 25%;
   gap: 1em;
   padding: 1.2em 0;
   border-radius: 10px;
@@ -639,7 +641,7 @@
   height: 400px;
 }
 footer{
-  margin: 2.5em auto;
+  margin: 2.5em auto 0 auto;
   background-color: purple;
   display: flex;
   flex-wrap: wrap;

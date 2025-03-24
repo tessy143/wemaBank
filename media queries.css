@@ -12,9 +12,21 @@
     flex-direction: column;
   }
   .product-1 div {
-    width: 100%;
+    width: 80%;
+    margin: 0.3em auto;
     align-items: center;
+    box-shadow: 0 0 1em rgba(199, 172, 195, 0.034);
   }
+  .product-1 div a {
+    background-image: linear-gradient(to top, purple, black);
+    color: white;
+    padding: 9px 25px;
+    transition: all 0.3s ease-in;
+  }
+  .product-1 div a:hover {
+      background-image: linear-gradient(to bottom, purple, black);
+
+    }
   .SME-partner {
     flex-direction: column;
   }
@@ -22,7 +34,9 @@
     flex-direction: column;
   }
   .loans div {
-    width: 100%;
+    width: 70%;
+    margin: 0.3em auto;
+    background-image: linear-gradient(330deg, rgb(239, 36, 239), rgba(246, 215, 37, 0.919));
     align-items: center;
   }
   .swipe {
@@ -48,7 +62,8 @@
     flex-direction: column;
   }
   .business-3 div {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
   }
   .customer {
     flex-direction: column;
@@ -74,12 +89,99 @@
     flex-direction: column;
   }
   .alat img {
-    width: 30%;
+    width: 80%;
   }
-  .nav-2 ul{
+  .nav-2 ul {
     flex-direction: column;
   }
   .nav-1 ul {
     display: none !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .alat {
+    background-image: linear-gradient(
+      220deg,
+      rgb(80, 3, 80),
+      rgb(166, 119, 31),
+      purple
+    );
+  }
+  .Banking-1 section {
+    padding: 2em 0;
+    width: 60%;
+    margin: 0.5em auto;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.074);
+    background-image: linear-gradient(230deg, rgba(255, 255, 255, 0.953), rgba(222, 222, 222, 0.901), rgb(255, 255, 255), white), url(./img/638733212981616375_a-gisop0.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .partner img {
+    width: 100%;
+  }
+  .swipe div {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .payment div:nth-child(1) img{
+    width: 100%;
+  }
+  .uninterrupted p {
+    margin-bottom: 1.2em;
+    line-height: 1.5;
+  }
+  .Explore-1 {
+    background-image: linear-gradient(
+      220deg,
+      rgb(80, 3, 80),
+      rgba(0, 0, 0, 0.176),
+      purple
+    );
+    
+  } 
+  .business-1 p {
+    line-height: 1.5;
+  }
+  .Testimonial {
+    background-image: linear-gradient(33deg, rgba(0, 0, 0, 0.638), rgba(0, 0, 0, 0.66)), url(./img/investor_img-cbcYPP_A.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .Testimonial div:nth-child(1) h5, .Testimonial div:nth-child(1) h2 {
+    color: white;
+  }
+
+  .store {
+    flex-direction: column;
+    padding: 2em 0;
+  }
+  .store-1 div:nth-child(2) img {
+    width: 100%;
+  } 
+  .downoad {
+    padding-top: 3.2em;
+  }
+  .normal {
+    color: gold;
+    font-style: italic;
+  }
+  footer section{
+    width: 100%;
+  }
+  .swipe div:nth-child(2) img {
+    width: 320px;
+  }
+  .nav-1 > img {
+    width: 90px;
+  }
+  .nav-1 {
+    padding: 20px 3%;
+  }
+}
+
+@media (max-width: 360px) {
+    .swipe div:nth-child(2) img {
+    width: 250px;
   }
 }
